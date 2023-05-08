@@ -1,0 +1,201 @@
+html,
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.navbarcont {
+  position: fixed;
+  top: 190px;
+  left: 45px;
+  width: 150px;
+  height: 300px;
+  z-index: 1;
+}
+
+
+
+.firstflexcont {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  border: 5px solid black;
+  width: 75px;
+  background-color: white;
+  top: 0;
+}
+
+
+
+.secondflexcont {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 80px;
+  margin: 0;
+  border: 5px solid black;
+  width: 75px;
+  background-color: white;
+}
+
+
+.fb1item {
+  margin: 0;
+  width: 75px;
+  height: 75px;
+}
+
+.fb2item {
+  margin: 0;
+  width: 75px;
+  height: 75px;
+}
+
+#fb1i1:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb1i2:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb1i3:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb1i4:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb2i1:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb2i2:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb2i3:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb2i4:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+
+.navbackground {
+  position: fixed;
+  height: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 16%;
+  background-color: black;
+}
+
+.daeguPic {
+  position: fixed;
+  left: 16%;
+  width: 84%;
+  background: url(./Pictures/daegu.jpg);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  position: absolute;
+  width: 70%;
+  height: 80%;
+  background-color: rgb(255, 255, 255, .6);
+  border-radius: 50px;
+  display: flex;
+}
+
+.leftSide {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.rightSide {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#leftTitle {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+  color: rgb(138, 92, 92);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#rightTitle {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+#yourMessage {
+  text-decoration: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: 'Caveat', cursive;
+  font-size: 15px;
+}
+
+
+#submitMessage {
+  font-family: 'Caveat', cursive;
+  font-size: 15px;
+  width: 200px;
+  height: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: solid 1px black;
+  background-color: rgb(138, 92, 92);
+  color: white;
+}
+
+#yourName {
+  font-family: 'Caveat', cursive;
+  font-size: 15px;
+  width: 200px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#submitMessage:hover {
+  cursor: pointer;
+  border: solid 2px black;
+}
+
+.messagesContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  height: 78%;
+  padding-right: 25px;
+  overflow-y: scroll;
+  left: 30px;
+}
+
+li {
+  font-family: 'Caveat', cursive;
+  font-size: 18px;
+}

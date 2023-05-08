@@ -1,0 +1,1492 @@
+
+html, body {
+  position: relative;
+  background-color: grey;
+  min-height: 100vh;
+  margin: 0%;
+}
+
+.navbarcont {
+  position: fixed;
+  top: 190px;
+  left: 45px;
+  width: 150px;
+  height: 300px;
+  z-index: 1;
+}
+
+.whiteBackground {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+
+.firstflexcont {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  border: 5px solid black;
+  width: 75px;
+  background-color: white;
+  top: 0;
+}
+
+
+
+.secondflexcont {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 80px;
+  margin: 0;
+  border: 5px solid black;
+  width: 75px;
+  background-color: white;
+}
+
+
+.fb1item {
+  margin: 0;
+  width: 75px;
+  height: 75px;
+}
+
+.fb2item {
+  margin: 0;
+  width: 75px;
+  height: 75px;
+}
+
+#fb1i1:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb1i2:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb1i3:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb1i4:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb2i1:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb2i2:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb2i3:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+#fb2i4:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+
+.navbackground {
+  position: fixed;
+  height: 100%; 
+  min-height: 100%; 
+  top: 0; 
+  left: 0; 
+  bottom: 0;
+  width: 16%;
+  background-color: black;
+}
+
+.musiccontainer {
+  position: absolute;
+  height: 1900px;
+  min-height: 100%;
+  top: 0;
+  left: 16%;
+  width: 84%;
+  background-image: url(./Pictures/AD.25401551.1-1200x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.albums {
+  top: 100px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%);
+  width: 1200px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.pictures {
+  width: 180px;
+  height: 180px;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+
+.pictures:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.containerPicText:hover {
+  background-image: linear-gradient(rgb(44, 44, 44), rgb(44, 44, 44), red);
+  padding: 10px;
+}
+
+.fourtypestext {
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.picDiv {
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  top: 50%;
+  top: 50%;
+  transform: translateY(50%, 50%);
+}
+
+.fourtypes {
+  background-color: rgb(44, 44, 44, .6);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 110px;
+}
+
+
+.fourtypespictures {
+  display: flex;
+  gap: 10px;
+}
+
+.backgroundWhite {
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  bottom: 0px;
+  background-color: white;
+}
+
+.musicTitles {
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: rgb(220, 220, 220);
+}
+
+.musicTitles:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.carouselandinfo {
+  position: absolute;
+  display: flex;
+  left: 16%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 84%;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 50%;
+}
+
+.info {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(45, 45, 45);
+}
+
+
+/* ALBUM 1: SUICIDE */
+
+.lyrics {
+  position: absolute;
+  height: 6000px;
+  min-height: 100%;
+  top: 0;
+  left: 46%;
+  width: 54%;
+  background-color: white;
+  text-align: center;
+}
+
+.lyricsText {
+  font-size: 26px;
+  color: black;
+  font-family: 'Gowun Batang', serif;
+}
+
+.mainPlayer {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  height: 100px;
+  width: 780px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 40px;
+  box-shadow: 0px 10px 15px rgb(116, 116, 116);
+  z-index: 6;
+}
+
+.albumCoverPlayer {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/Suicide.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayer1 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/mixtape1.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayer2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/mixtape2.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.smallerText {
+  font-size: 25px;
+}
+
+.albumCoverPlayer3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/mixtape3.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayer4 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/mixtape4.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayer5 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/mixtape5.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayer6 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/mixtape6.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayer7 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/mixtape7.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerS9 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/single9.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerS1 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/single1.JPG);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerS2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/single2.JPG);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerS7 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/single7.JPG);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerS5 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/single5.JPG);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerS3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/single3.JPG);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerS4 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/single4.JPG);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerS6 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/single6.JPG);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerS10 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/single10.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerS8 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/single8.JPG);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerEP1 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/Distance.JPG);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerEP2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/Nosy.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+.albumCoverPlayerA2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-image: url(./Albums/3M.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px;
+}
+
+#rotating {
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.volume_show {
+  font-size: 18px;
+  position: absolute;
+  left: 200px;
+}
+
+#volume_icon {
+  position: absolute;
+  bottom: 18px;
+  font-size: 15px;
+  left: 160px;
+  color: rgb(200, 200, 200);
+  cursor: pointer;
+}
+
+#volume_changer {
+  position: absolute;
+  left: 200px;
+  width: 100px;
+  bottom: 15px;
+  cursor: pointer;
+}
+
+#visible {
+  z-index: 1;
+}
+
+#duration_slider {
+  -webkit-appearance: none;
+  border-radius: 20px;
+  background-color: rgb(200, 77, 77);
+  position: absolute;
+  left: 45%;
+  bottom: 15px;
+  width: 300px;
+  height: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+#duration_slider::-moz-range-track {
+  background: rgb(200, 200, 200);
+  height: 5px;
+}
+
+#duration_slider::-moz-range-thumb {
+  background: white;
+  width: 5px;
+  height: 10px;
+  z-index: 5;
+}
+
+
+
+#auto {
+  position: absolute;
+  right: 30px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, .3);
+  border: none;
+  color: white;
+  font-size: 12px;
+  width: 80px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
+div.albumCoverPlayer::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayer1::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayer2::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayer3::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayer4::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayer5::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayer6::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayer7::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerS9::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerS1::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerS2::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerS7::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerS5::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerS3::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerS4::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerS6::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerS10::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerS8::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerEP1::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerEP2::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+div.albumCoverPlayerA2::before {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+}
+
+#volume_changer {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: rgb(200, 77, 77);
+  height: 15px;
+}
+
+#volume_changer::-moz-range-track {
+  background: rgb(200, 200, 200);
+  height: 5px;
+}
+
+.title {
+  font-size: 20px;
+  position: absolute;
+  left: 170px;
+  bottom: 35px;
+  color: rgb(200, 200, 200);
+}
+
+#volume_changer::-moz-range-thumb {
+  background: white;
+  width: 5px;
+  height: 10px;
+  z-index: 5;
+}
+
+.play_buttons {
+  position: relative;
+  top: 20px;
+  left: 54%;
+  width: 150px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#pre {
+  width: 35px;
+  height: 23px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(206, 121, 121);
+  border: none;
+}
+
+#pre:hover {
+  background-color: rgb(200, 77, 77);
+}
+
+#next {
+  width: 35px;
+  height: 23px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(206, 121, 121);
+  border: none;
+}
+
+#next:hover {
+  background-color: rgb(200, 77, 77);
+}
+
+#play {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-13px);
+  background-color: rgb(200, 77, 77);
+  border: none;
+}
+
+.fa-pause {
+  font-size: 20px;
+}
+
+#play_img {
+  font-size: 20px;
+}
+
+i {
+  color: white;
+}
+
+#progressBar1 {
+  position: absolute;
+  left: 200px;
+  width: 90px;
+  height: 5px;
+  bottom: 22px;
+  z-index: 4;
+  background-color: rgb(44, 44, 44);
+}
+
+#progressBar2 {
+  position: absolute;
+  left: 45%;
+  height: 5px;
+  bottom: 22px;
+  z-index: 4;
+  background-color: rgb(44, 44, 44);
+}
+
+
+
+
+
+.coverandtracks {
+  position: fixed;
+  left: 16%;
+  height: 100%;
+  width: 30%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  border-right: 3px dashed black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.trackListContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 48%;
+  width: 80%;
+  left: 10%;
+  height: 300px;
+}
+
+.coverArt {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/Suicide.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArt1 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/mixtape1.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArt2 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/mixtape2.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArt3 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/mixtape3.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArt4 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/mixtape4.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArt5 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/mixtape5.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArt6 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/mixtape6.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArt7 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/mixtape7.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtS1 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/single1.JPG);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtS9 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/single9.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtS2 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/single2.JPG);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtS7 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/single7.JPG);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtS5 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/single5.JPG);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtS3 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/single3.JPG);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtS4 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/single4.JPG);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtS6 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/single6.JPG);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtS10 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/single10.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtS8 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/single8.JPG);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtEP1 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/Distance.JPG);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtEP2 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/Nosy.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.coverArtA2 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-image: url(./Albums/3M.jpg);
+  background-size: 100%;
+  background-position: 0, -20%;
+}
+
+.nameofalbum {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+}
+
+.albumDetails {
+  font-size: 18px;
+  position: absolute;
+  left: 20px;
+  bottom: -10px;
+  color: rgb(200, 200, 200);
+}
+
+table th,td {
+  font-size: 17px;
+  font-family: 'Caveat', cursive;
+  color: black;
+  border: none;
+  text-align: left;
+}
+
+table tr {
+  cursor: pointer;
+}
+
+table td:hover {
+  color: white;
+}
+
+.th1 {
+  width: 50px;
+}
+
+.th2 {
+  width: 200px;
+} 
+
+.th3 {
+  width: 100px;
+}
+
+table tr:hover {
+  background-color: rgb(200, 77, 77);
+  color: white;
+}
+
+.coverArt:hover {
+  filter: brightness(75%);
+}
+
+.coverArt1:hover {
+  filter: brightness(75%);
+}
+
+.coverArt2:hover {
+  filter: brightness(75%);
+}
+
+.coverArt3:hover {
+  filter: brightness(75%);
+}
+
+.coverArt4:hover {
+  filter: brightness(75%);
+}
+
+.coverArt5:hover {
+  filter: brightness(75%);
+}
+
+.coverArt6:hover {
+  filter: brightness(75%);
+}
+
+.coverArt7:hover {
+  filter: brightness(75%);
+}
+
+.coverArtS9:hover {
+  filter: brightness(75%);
+}
+
+.coverArtS2:hover {
+  filter: brightness(75%);
+}
+
+.coverArtS7:hover {
+  filter: brightness(75%);
+}
+
+.coverArtS1:hover {
+  filter: brightness(75%);
+}
+
+.coverArtS5:hover {
+  filter: brightness(75%);
+}
+
+.coverArtS3:hover {
+  filter: brightness(75%);
+}
+
+.coverArtS4:hover {
+  filter: brightness(75%);
+}
+
+.coverArtS6:hover {
+  filter: brightness(75%);
+}
+
+.coverArtS10:hover {
+  filter: brightness(75%);
+}
+
+.coverArtS8:hover {
+  filter: brightness(75%);
+}
+
+.coverArtEP1:hover {
+  filter: brightness(75%);
+}
+
+.coverArtEP2:hover {
+  filter: brightness(75%);
+}
+
+.coverArtA2:hover {
+  filter: brightness(75%);
+}
+
+/* REST */
+
+h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  color: white;
+}
+
+#infoText {
+  text-align: left;
+  margin-left: 50px;
+}
+
+hr {
+  width: 520px;
+  border-top: 1px solid rgb(96, 96, 96);
+}
+
+.carousel__slide {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  top: 20%;
+}
+
+.carousel__track-container {
+  background-color: pink;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  margin: 0 auto;
+  top: 20%;
+  overflow: hidden;
+}
+
+.carousel__track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  transition: transform 250ms ease-in;
+}
+
+.carousel__slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 46%;
+  background: transparent;
+  border: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.carousel__button:hover {
+  filter: invert(23%) sepia() saturate(10000%) hue-rotate(360deg);
+}
+
+.carousel__button--left {
+  left: 60px;
+}
+
+.carousel__button--right {
+  right: 60px;
+}
+
+.carousel__button img {
+  width: 30px;
+}
+
+.carousel__nav-container {
+  width: 400px;
+  height: 20px;
+  top: 80%;
+  position: relative;
+  left: 9.3%;
+}
+
+.carousel__nav {
+  position: absolute;
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.carousel__indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: rgba(0,0,0,.3);
+  margin: 0 12px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel__indicator.current-slide {
+  background-color: black;
+}
+
+.carousel__indicator.current-slide:hover {
+  background-color: red;
+}
+
+
+.is-hidden {
+  display: none;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat&family=Gloria+Hallelujah&family=Nanum+Pen+Script&family=Shippori+Mincho&family=Shippori+Mincho+B1:wght@400;500&family=Yuji+Mai&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gloria+Hallelujah&family=Nanum+Pen+Script&family=Shippori+Mincho&family=Shippori+Mincho+B1:wght@400;500&family=Yuji+Mai&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+</head>
+<body>
+
+  <div class="navbarcont" id="navcont">
+    <!-- FIRST NAV FLEXBOX -->
+    <div class="firstflexcont">
+      <div class="fb1item">
+        <a href="./index.html">
+          <img src="./Pictures/home.png" id="fb1i1" alt="">
+        </a>
+      </div>
+      <div class="fb1item" id="fb1i2">
+        <a href="./info.html" target="_blank">
+          <img src="./Pictures/info-button.png" alt="">
+        </a>
+      </div>
+      <div class="fb1item" id="fb1i3">
+        <a href="./music.html" target="_blank">
+          <img src="./Pictures/itunes.png" alt="">
+        </a>
+      </div>
+      <div class="fb1item" id="fb1i4">
+        <a href="contact.html" target="_blank">
+          <img src="./Pictures/email.png" alt="">
+        </a>
+      </div>
+    </div>
+    <!-- SECOND NAV FLEXBOX -->
+    <div class="secondflexcont">
+      <div class="fb2item" id="fb2i1">
+        <a href="https://www.facebook.com/Choi3.910319" target="_blank">
+          <img src="./Pictures/facebook.png" alt="">
+        </a>
+      </div>
+      <div class="fb2item" id="fb2i2">
+        <a href="https://www.instagram.com/ae3am/?hl=en" target="_blank">
+          <img src="./Pictures/instagram.png" alt="">
+        </a>
+      </div>
+      <div class="fb2item" id="fb2i3">
+        <a href="https://twitter.com/ae3am" target="_blank">
+          <img src="./Pictures/twitter.png" alt="">
+        </a>
+      </div>
+      <div class="fb2item" id="fb2i4">
+        <a href="https://www.youtube.com/c/%EC%B5%9C%EC%82%BC" target="_blank">
+          <img src="./Pictures/youtube.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="navbackground"></div>
+  
+  <div class="daeguPic">
+
+    <!-- FORM CONTAINER -->
+    <div class="formContainer">
+
+      <!-- LEFT SIDE -->
+      <div class="leftSide">
+        <h3 id="leftTitle">MESSAGES FROM FANS</h3>
+        <div class="messagesContainer">
+          <ul>
+            <li>
+              Mihai <br>
+              Hi. I've been a fan of yours for about 7 years and I really love your songs. Please keep making awesome music and never change.
+            </li><br>
+          </ul>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="rightSide">
+        <h3 id="rightTitle">SEND A MESSAGE TO CHOI SAM</h3>
+        <br>
+        <form id="myForm" action="#">
+          <div><input type="text" name="fanName" id="yourName" placeholder="Your name"></div><br>
+          <textarea name="fanMessage" placeholder="Write your message here. Don't foget to be respectful. :)" id="yourMessage" cols="45" rows="18"></textarea>
+          <br>
+          <br>
+          <button type="button" value="Submit" id="submitMessage">Submit Message</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <script src="contact.js"></script>
+</body>
+</html>
